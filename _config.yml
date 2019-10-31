@@ -1,0 +1,34 @@
+# Site settings
+name: 快乐时光
+email: findhappytime@qq.com
+author: Shu Zhang
+url: http://www.findhappytime.com
+resume_site: http://www.findhappytime.com
+github: https://github.com/findhappytime
+baseurl: ""
+description: 探索未知，享受快乐，记录美好时光!
+meta_description: 张曙 个人博客 自由、快乐、充实
+motto: Artificial intelligence changes the world !
+banner: 知行合一
+
+#permalink: /:categories/:year/:month/:day/:title/
+permalink: /:year/:month/:day/:title/
+paginate: 10
+
+exclude: ['README.md', 'Gemfile.lock', 'Gemfile', 'Rakefile']
+
+github_username: findhappytime
+highlighter: Pygments
+
+# Build settings
+markdown: kramdown
+
+baidu_analysis:
+
+FB:
+  comments :
+    provider : findhappytime
+    duoshuo:
+        short_name : findhappytime
+    disqus :
+        short_name : findhappytime
